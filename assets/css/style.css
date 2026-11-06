@@ -1,78 +1,131 @@
+
+/* ==========================================
+   GLOBAL STYLING
+   ========================================== */
+
 body {
-  font-family: Raleway, sans-serif;
-  background: #f6f8fd;
+    font-family: Raleway, sans-serif;
+    background: #f6f8fd;
 }
 
+
+/* ==========================================
+   ANGGOTA 1 - ALFARIZI
+   NAVBAR, SOCIAL MEDIA, DAN FOOTER
+   ========================================== */
+
+/* Navbar Background */
 .bg-nav {
-  background-color: #f6f8fd;
+    background-color: #f6f8fd;
 }
 
+/* Navbar Logo Alignment */
 .mt--2 {
-  margin-top: -0.5rem !important;
+    margin-top: -0.5rem !important;
 }
 
-.hr-dotted {
-  border-top: 1px dotted;
-  opacity: .25;
-}
-
+/* Navbar Menu */
 .navbar-light .navbar-nav .nav-link {
-  color: #212529 !important;
-  font-size: 16px;
-  font-weight: 600;
-  transition: all 0.4s;
+    color: #212529 !important;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 0.4s;
 }
 
+/* Navbar Menu Hover */
 .navbar-light .navbar-nav .nav-link:hover {
-  color: #0d6efd !important;
+    color: #0d6efd !important;
 }
 
-.feature-icon-1 {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 5rem;
-  height: 5rem;
-  font-size: 3rem;
-  color: #fff;
-  border-radius: 100%;
-}
-
+/* Social Media Button */
 .btn-social-media {
-  color: #31316a;
-  background-color: #cdcfdf;
-  border-color: #cdcfdf;
-  width: 2rem;
-  height: 2rem;
-  padding: 1.2rem;
-  text-align: center;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 100%;
+    color: #31316a;
+    background-color: #cdcfdf;
+    border-color: #cdcfdf;
+    width: 2rem;
+    height: 2rem;
+    padding: 1.2rem;
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
 }
 
+/* Social Media Hover */
 .btn-social-media:hover {
-  color: #fff;
-  background-color: #0d6efd;
-  border-color: #0d6efd;
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
 }
 
 /* Footer */
 .footer .copyright a {
-  color: #ee5050;
-  text-decoration: none;
+    color: #ee5050;
+    text-decoration: none;
 }
 
 .footer .copyright a:hover {
-  color: #eb2d2d;
+    color: #eb2d2d;
 }
 
 .footer .link a {
-  color: #212529;
-  text-decoration: none;
+    color: #212529;
+    text-decoration: none;
 }
 
 .footer .link a:hover {
-  color: #0d6efd;
+    color: #0d6efd;
 }
+
+/* Tambahkan CSS Navbar, Social Media, dan Footer di bawah bagian ini */
+
+
+/* ==========================================
+   ANGGOTA 2 - LAZIMA
+   HERO SECTION DAN SERVICES
+   ========================================== */
+
+/* Services Feature Icon */
+.feature-icon-1 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 5rem;
+    height: 5rem;
+    font-size: 3rem;
+    color: #fff;
+    border-radius: 100%;
+}
+
+/* Tambahkan CSS Hero Section dan Services di bawah bagian ini */
+
+
+/* ==========================================
+   ANGGOTA 3 - LINTANG
+   ABOUT
+   ========================================== */
+
+/* Tambahkan CSS About di bawah bagian ini */
+
+
+/* ==========================================
+   ANGGOTA 4 - ULFI
+   PORTFOLIO
+   ========================================== */
+
+/* Tambahkan CSS Portfolio di bawah bagian ini */
+
+
+/* ==========================================
+   ANGGOTA 5 - IFAN
+   CONTACT
+   ========================================== */
+
+/* Contact Dotted Divider */
+.hr-dotted {
+    border-top: 1px dotted;
+    opacity: .25;
+}
+
+/* Tambahkan CSS Contact di bawah bagian ini */
