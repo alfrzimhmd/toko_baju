@@ -34,7 +34,21 @@ body {
 
 /* Navbar Menu Hover */
 .navbar-light .navbar-nav .nav-link:hover {
-    color: #0d6efd !important;
+  color: #0d6efd !important;
+}
+
+/* 1. BAGIAN INI YANG DIGANTI DARI KODE LAMA */
+.feature-icon-1 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 4.5rem;
+  height: 4.5rem;
+  font-size: 2.2rem;
+  color: #1c1a17;
+  background-color: #ede8df;
+  border-radius: 100%;
+  transition: all 0.3s ease;
 }
 
 /* Social Media Button */
@@ -78,54 +92,219 @@ body {
     color: #0d6efd;
 }
 
-/* Tambahkan CSS Navbar, Social Media, dan Footer di bawah bagian ini jika diperlukan*/
+.hero-section {
+    padding: 90px 0;
+    background-color: #f3f0ec;
+    overflow: hidden;
+}
 
+.hero-label,
+.section-subtitle {
+    display: inline-block;
+    margin-bottom: 18px;
+    color: #a87952;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
 
-/* ==========================================
-   ANGGOTA 2 - LAZIMA
-   HERO SECTION DAN SERVICES
-   ========================================== */
+.hero-title {
+    margin-bottom: 25px;
+    color: #292929;
+    font-size: clamp(42px, 5vw, 65px);
+    font-weight: 800;
+    line-height: 1.15;
+}
 
-/* Services Feature Icon */
-.feature-icon-1 {
+.hero-title span {
+    display: block;
+    color: #a87952;
+}
+
+.hero-description {
+    max-width: 500px;
+    margin-bottom: 30px;
+    color: #666666;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.btn-hero-primary {
+    padding: 13px 25px;
+    color: #ffffff;
+    background-color: #292929;
+    border: 1px solid #292929;
+    border-radius: 4px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.btn-hero-primary:hover {
+    color: #ffffff;
+    background-color: #a87952;
+    border-color: #a87952;
+}
+
+.btn-hero-outline {
+    padding: 13px 25px;
+    color: #292929;
+    border: 1px solid #292929;
+    border-radius: 4px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.btn-hero-outline:hover {
+    color: #ffffff;
+    background-color: #292929;
+}
+
+.hero-statistics h4 {
+    margin-bottom: 5px;
+    color: #292929;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.hero-statistics p {
+    margin: 0;
+    color: #777777;
+    font-size: 12px;
+}
+
+.hero-image-wrapper {
+    position: relative;
+}
+
+.hero-image {
+    width: 100%;
+    height: 540px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.hero-image-caption {
+    position: absolute;
+    right: -15px;
+    bottom: 25px;
+    padding: 22px 28px;
+    background-color: #ffffff;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+}
+
+.hero-image-caption span {
+    color: #a87952;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.hero-image-caption h5 {
+    margin: 7px 0 0;
+    color: #292929;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* Services Section */
+.services-section {
+    padding: 90px 0;
+    background-color: #ffffff;
+}
+
+.section-heading {
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.section-heading h2 {
+    margin-bottom: 15px;
+    color: #292929;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.section-heading p {
+    color: #777777;
+    line-height: 1.8;
+}
+
+.service-card {
+    height: 100%;
+    padding: 40px 30px;
+    background-color: #f8f6f3;
+    border: 1px solid #eeeeee;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+.service-icon {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 5rem;
-    height: 5rem;
-    font-size: 3rem;
-    color: #fff;
-    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 25px;
+    color: #ffffff;
+    background-color: #a87952;
+    border-radius: 50%;
+    font-size: 25px;
 }
 
-/* Tambahkan CSS Hero Section dan Services di bawah bagian ini jika diperlukan*/
-
-
-/* ==========================================
-   ANGGOTA 3 - LINTANG
-   ABOUT
-   ========================================== */
-
-/* Tambahkan CSS About di bawah bagian ini jika diperlukan */
-
-
-/* ==========================================
-   ANGGOTA 4 - ULFI
-   PORTFOLIO
-   ========================================== */
-
-/* Tambahkan CSS Portfolio di bawah bagian ini jika diperlukan */
-
-
-/* ==========================================
-   ANGGOTA 5 - IFAN
-   CONTACT
-   ========================================== */
-
-/* Contact Dotted Divider */
-.hr-dotted {
-    border-top: 1px dotted;
-    opacity: .25;
+.service-card h4 {
+    margin-bottom: 15px;
+    color: #292929;
+    font-size: 20px;
+    font-weight: 700;
 }
 
-/* Tambahkan CSS Contact di bawah bagian ini jika diperlukan*/
+.service-card p {
+    margin: 0;
+    color: #777777;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+    .hero-section {
+        padding: 65px 0;
+    }
+
+    .hero-image {
+        height: 430px;
+    }
+
+    .hero-image-caption {
+        right: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-title {
+        font-size: 42px;
+    }
+
+    .hero-image {
+        height: 350px;
+    }
+
+    .hero-statistics {
+        gap: 20px !important;
+    }
+
+    .hero-statistics h4 {
+        font-size: 15px;
+    }
+
+    .hero-image-caption {
+        right: 8px;
+        bottom: 12px;
+        padding: 15px;
+    }
+}
