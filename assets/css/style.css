@@ -1,14 +1,24 @@
+
+/* ==========================================
+   GLOBAL STYLING
+   ========================================== */
+
 body {
-  font-family: Raleway, sans-serif;
-  background: #f6f8fd;
+    font-family: Raleway, sans-serif;
+    background: #f6f8fd;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> mafruchati
 /* ==========================================
    ANGGOTA 1 - ALFARIZI
    NAVBAR, SOCIAL MEDIA, DAN FOOTER
    ========================================== */
 
 /* Navbar Background */
+<<<<<<< HEAD
 .bg-nav {
     background-color: #ffffff;
     border-bottom: 1px solid #eeeeee;
@@ -118,27 +128,28 @@ body {
     font-size: 13px;
 }
 
+=======
+>>>>>>> mafruchati
 .bg-nav {
-  background-color: #f6f8fd;
+    background-color: #f6f8fd;
 }
 
+/* Navbar Logo Alignment */
 .mt--2 {
-  margin-top: -0.5rem !important;
+    margin-top: -0.5rem !important;
 }
 
-.hr-dotted {
-  border-top: 1px dotted;
-  opacity: .25;
-}
-
+/* Navbar Menu */
 .navbar-light .navbar-nav .nav-link {
-  color: #212529 !important;
-  font-size: 16px;
-  font-weight: 600;
-  transition: all 0.4s;
+    color: #212529 !important;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 0.4s;
 }
 
+/* Navbar Menu Hover */
 .navbar-light .navbar-nav .nav-link:hover {
+<<<<<<< HEAD
   color: #0d6efd !important;
 }
 
@@ -154,47 +165,53 @@ body {
   background-color: #ede8df;
   border-radius: 100%;
   transition: all 0.3s ease;
+=======
+    color: #0d6efd !important;
+>>>>>>> mafruchati
 }
 
+/* Social Media Button */
 .btn-social-media {
-  color: #31316a;
-  background-color: #cdcfdf;
-  border-color: #cdcfdf;
-  width: 2rem;
-  height: 2rem;
-  padding: 1.2rem;
-  text-align: center;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 100%;
+    color: #31316a;
+    background-color: #cdcfdf;
+    border-color: #cdcfdf;
+    width: 2rem;
+    height: 2rem;
+    padding: 1.2rem;
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
 }
 
+/* Social Media Hover */
 .btn-social-media:hover {
-  color: #fff;
-  background-color: #0d6efd;
-  border-color: #0d6efd;
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
 }
 
 /* Footer */
 .footer .copyright a {
-  color: #ee5050;
-  text-decoration: none;
+    color: #ee5050;
+    text-decoration: none;
 }
 
 .footer .copyright a:hover {
-  color: #eb2d2d;
+    color: #eb2d2d;
 }
 
 .footer .link a {
-  color: #212529;
-  text-decoration: none;
+    color: #212529;
+    text-decoration: none;
 }
 
 .footer .link a:hover {
-  color: #0d6efd;
+    color: #0d6efd;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         /* Portfolio Section */
         .portfolio-section {
@@ -388,10 +405,69 @@ body {
 .hero-image {
     width: 100%;
     height: 540px;
+=======
+/* Tambahkan CSS Navbar, Social Media, dan Footer di bawah bagian ini jika diperlukan*/
+
+
+/* ==========================================
+   ANGGOTA 2 - LAZIMA
+   HERO SECTION DAN SERVICES
+   ========================================== */
+
+/* Services Feature Icon */
+.feature-icon-1 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 5rem;
+    height: 5rem;
+    font-size: 3rem;
+    color: #fff;
+    border-radius: 100%;
+}
+
+/* Tambahkan CSS Hero Section dan Services di bawah bagian ini jika diperlukan*/
+
+
+/* ==========================================
+   ANGGOTA 3 - LINTANG
+   ABOUT
+   ========================================== */
+
+/* Tambahkan CSS About di bawah bagian ini jika diperlukan */
+
+
+/* ==========================================
+   ANGGOTA 4 - ULFI
+   PORTFOLIO
+   ========================================== */
+
+/* Tambahkan CSS Portfolio di bawah bagian ini jika diperlukan */
+    /* ==========================================
+   ANGGOTA 3 - ULFI
+   ABOUT
+   ========================================== */
+
+/* About Section */
+.about-section {
+    padding: 100px 0;
+    background-color: #f8f6f3;
+}
+
+.about-image-wrapper {
+    position: relative;
+    padding: 0 20px 20px 0;
+}
+
+.about-image {
+    width: 100%;
+    height: 520px;
+>>>>>>> mafruchati
     object-fit: cover;
     border-radius: 5px;
 }
 
+<<<<<<< HEAD
 .hero-image-caption {
     position: absolute;
     right: -15px;
@@ -403,11 +479,25 @@ body {
 
 .hero-image-caption span {
     color: #a87952;
+=======
+.about-image-label {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 22px 28px;
+    background-color: #292929;
+    color: #ffffff;
+}
+
+.about-image-label span {
+    color: #c6a486;
+>>>>>>> mafruchati
     font-size: 10px;
     font-weight: 700;
     letter-spacing: 2px;
 }
 
+<<<<<<< HEAD
 .hero-image-caption h5 {
     margin: 7px 0 0;
     color: #292929;
@@ -518,3 +608,100 @@ body {
     }
 }
 >>>>>>> lazima
+=======
+.about-image-label h4 {
+    margin: 8px 0 0;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.about-title {
+    margin-bottom: 25px;
+    color: #292929;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 1.25;
+}
+
+.about-title span {
+    display: block;
+    color: #a87952;
+}
+
+.about-description {
+    color: #777777;
+    font-size: 14px;
+    line-height: 1.9;
+}
+
+.about-values {
+    margin: 25px 0 30px;
+}
+
+.about-value-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 15px;
+    color: #444444;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.about-value-item i {
+    color: #a87952;
+    font-size: 18px;
+}
+
+.btn-about {
+    padding: 13px 24px;
+    color: #ffffff;
+    background-color: #292929;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.btn-about:hover {
+    color: #ffffff;
+    background-color: #a87952;
+}
+
+@media (max-width: 991px) {
+    .about-section {
+        padding: 70px 0;
+    }
+
+    .about-image {
+        height: 430px;
+    }
+}
+
+@media (max-width: 576px) {
+    .about-title {
+        font-size: 32px;
+    }
+
+    .about-image {
+        height: 350px;
+    }
+
+    .about-image-label {
+        padding: 15px;
+    }
+}
+
+/* ==========================================
+   ANGGOTA 5 - IFAN
+   CONTACT
+   ========================================== */
+
+/* Contact Dotted Divider */
+.hr-dotted {
+    border-top: 1px dotted;
+    opacity: .25;
+}
+
+/* Tambahkan CSS Contact di bawah bagian ini jika diperlukan*/
+>>>>>>> mafruchati
